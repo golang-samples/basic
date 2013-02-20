@@ -8,7 +8,7 @@ type Magician interface {
 	Magic()
 }
 
-type Delegate struct{
+type Delegate struct {
 	magician Magician
 }
 
